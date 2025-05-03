@@ -1,0 +1,151 @@
+
+/*	BODY & HTML	*/
+html{
+
+}
+body{
+	font-family: 'segoe ui';
+	margin: 0;
+	width: 100%;
+}
+	/*END*/
+
+		/*Header*/
+.header{
+	display: flex;
+	justify-content: center;
+	background:black;
+	position:fixed;
+	z-index: 1000;
+	width: 100%;
+}
+
+.nav{
+	padding: 35px;
+	flex-direction: row;
+	
+}
+
+a{
+	text-decoration: none;
+	color: rgb(95, 158, 160);
+	font-size: 20px;
+	padding: 35px;
+	text-align: center;
+	
+}
+
+a:hover{
+color: whitesmoke;
+background: rgba(95, 158, 160,0.5);
+padding: 35px;
+}
+		/*	END	*/
+
+.section{
+	background: linear-gradient(-100deg ,cadetblue , black);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: 'segoe ui';
+	padding-top: 150px;
+}
+
+.sect{
+	font-size: 40px;
+	padding-top: 150px;
+	padding-left: 600px;
+}
+
+.seci{
+	font-size: 30px;
+	line-height: ;
+	padding-left: 600px;
+	font-weight: 500;
+}
+.secy{
+	font-size: 30px;
+	line-height: 2;
+	font-weight: 200;
+	padding-left: 600px;
+}
+
+.secu{
+	padding-left: 600px;
+	padding-bottom: 200px;
+}
+
+#bt{
+	width: 500px;
+	height: 50px;
+	border: none;
+	color: cadetblue;
+	font-size: 20px;
+	cursor:pointer;
+}
+
+#bt:hover{
+	background-color: rgba(95, 158, 160,0.5);
+	color: white;
+	transition: background-color  0.3s ease-in-out;
+}
+
+.class{
+	display: flex;
+	justify-content:space-evenly;
+	margin: 200px;
+	margin-top: 90px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.btn{
+	margin-top: 20px;
+	background-color: cadetblue;
+	border: none;
+	color: white;
+}
+
+.btn:hover{
+	background-color: black;
+}
+
+.class-2{
+	/* display:flex; */
+	width: 100%;
+	/* color: white; */
+	background: linear-gradient(-100deg ,cadetblue , black);
+	color: white;
+	padding-bottom: 40px;
+}
+
+.big{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.items{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	color: white;
+	line-height: 20px;
+	text-align: center;
+}
+
+.item{
+	margin: 40px;
+	background: black;
+}
+
+.footer{
+	background-color: black;
+	color: cadetblue;
+	display: flex;
+	padding: 20px;
+	font-size: 20px;
+}
+

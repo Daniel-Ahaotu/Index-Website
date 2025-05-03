@@ -1,0 +1,11 @@
+.sector{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 100px;
+
+}
+
+.footer{
+    justify-content: baseline;
+  margin-top: 15%;
+}

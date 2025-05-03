@@ -1,0 +1,113 @@
+
+body,html{
+	font-family: 'segoe ui';
+	width: 100%;
+	margin: 0 0 0 0;
+	position: absolute;
+	
+}
+
+.header{
+	display: flex;
+	background:black;
+	position:fixed;
+	z-index: 1000;
+	width: 100%;
+	padding: 25px;
+	flex-direction: row;
+	justify-content:left;
+	align-items: center;
+	padding-left: 50px;
+}
+
+
+a{
+	text-decoration: none;
+	color: rgb(95, 158, 160);
+	font-size: 20px;
+	padding: 35px;
+}
+
+.ik{
+	padding: 35px;
+	font-size: 20px;
+}
+
+a:hover{
+	color: whitesmoke;
+	background: rgba(95, 158, 160,0.5);
+	padding: 35px;
+	}
+
+.ik:hover{
+	padding: 35px;
+	background: none;
+	color: transparent;
+}
+
+
+
+
+
+.cant{
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+}
+
+
+
+
+
+
+.lass-a{
+	display: flex;
+	padding: 0px 40px 70px 0px;
+
+}
+
+.lass-b{
+	display: flex;
+	padding: 0px 40px 70px 0px;
+
+}
+
+.lass-c{
+	display: flex;
+	padding: 0px 40px 70px 0px;
+	
+}
+
+
+.gag{
+	padding-left: 40px;
+}
+
+.bon{
+	background-color: cadetblue;
+	border: none;
+	color: white;
+}
+
+.bon:hover{
+	background-color: black;
+}
+
+.hh{
+	font-size: 60px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.pp{
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.footer{
+	background-color: black;
+	color: cadetblue;
+	display: flex;
+	padding: 20px;
+	font-size: 20px;
+}
